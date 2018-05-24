@@ -36,7 +36,7 @@ O conteúdo se divide em:
 
     - Inicie o container (todos os arquivos ficarão disponíveis e atualizáveis no container em "/home/code"):
 
-        ```docker run -i -t -v $(pwd)/:/home/code:rw python3_redis_mongo```
+        ```docker run -it --rm -v $(pwd)/:/home/code:rw python3_redis_mongo```
 
     - Inicie os bancos de dados (na ordem e quando achar melhor):
 
